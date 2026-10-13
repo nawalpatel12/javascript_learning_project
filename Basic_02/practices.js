@@ -1,7 +1,8 @@
-function Person(name, age) {
-    this.name = name;
-    this.age = age;
+function addTwoDigit(num1, num2){
+
+  return num1 + num2
+
 }
 
-const person1 = new Person("John", 25);
-console.log(`My name is ${person1.name} and age is ${person1.age}`) //hello , gihub config
+
+console.log(addTwoDigit(4, 5));
